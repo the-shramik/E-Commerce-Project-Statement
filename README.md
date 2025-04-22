@@ -18,8 +18,6 @@ The **E-Commerce Product Management System** is a robust full-stack backend solu
   - [Backend Installation with IntelliJ IDEA](#backend-installation-with-intellij-idea)
   - [Frontend Installation With VS Code](#frontend-installation-with-vs-code)
 - [Folder Structure (Backend)](#folder-structure-backend)
-- [How to Run](#how-to-run)
-
 
 ---
 
@@ -113,17 +111,4 @@ com.telusko.springecom
 ├── model                     # Entity classes (Product)
 └── SpringEcomApplication     # Main application class
 ```
----
-## ✅ How to Run
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/ecommerce-product-system.git
-cd ecommerce-product-system
-```
-2. Configure `application.properties` for PostgreSQL.
-3. Run using Maven:
-```bash
-./mvnw spring-boot:run
-```
-
 ---
